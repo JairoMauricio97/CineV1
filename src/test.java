@@ -6,6 +6,8 @@ public class test {
 	public static void main(String[] args) throws SQLException {
 		// TODO Auto-generated method stub
 
+		
+		
 		Login login = new Login("jairo@gmail.com", "1234");
 		ResultSet r = login.Ingresar();
 		if (r.next()) {
